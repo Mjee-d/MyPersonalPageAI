@@ -125,7 +125,9 @@ python main.py
 ```
 
 ## Workflow Overview
-[ input.wav ]
+
+```text
+ [ input.wav ]
        │
        ▼  (Step 1: OpenAI Whisper)
  [ Transcribed Text ]
@@ -135,3 +137,4 @@ python main.py
        │
        ▼  (Step 3: gTTS)
  [ response.mp3 ]
+```
