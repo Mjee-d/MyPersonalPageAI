@@ -5,7 +5,7 @@ This project uses a Google Teachable Machine model trained to recognize two dist
 ## Repository Structure
 * `model/`: Contains the pre-trained Keras model (`.h5`) and class labels text file.
 * `test_images/`: Sample image used to verify the model accuracy.
-* `teachable_machine.ipynb`: Jupyter notebook containing the inference pipeline code.
+* `teachable_machine`: Jupyter notebook containing the inference pipeline code.
 
 ## How to Run
 1. Open Google Colab and upload the `teachable_machine_test.ipynb` notebook.
